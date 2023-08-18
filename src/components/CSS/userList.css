@@ -1,0 +1,151 @@
+
+.comp
+{
+margin: auto;
+}
+
+.tableHead
+{
+    background-color: #57BC90 !important;
+    /* background-color: #D80000; */
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+
+}
+.tbl_contents
+{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.customer-list
+{
+    
+display: flex    ;
+justify-content: center;
+}
+.TBL
+{
+    border-collapse: separate;
+    border-spacing: 0 20px; 
+
+}
+
+.tableRow
+{
+    background-color: white;
+    align-items: center;
+    top: 343px;
+left: 471px;
+width: 1372px;
+height: 60px;
+}
+.Addmodal
+{
+    border-radius: 50px;
+}
+.img-container
+{
+    background-color: #57BC90;
+    height: 100px;
+    width: 100px;
+}
+.image
+{
+    height: 100%;
+    width: 100%;
+}
+.inputs
+{
+    height: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.AddUser
+{
+    margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+height: 55px;
+background: transparent url('../../assets/Base\ \(1\).svg') ;
+background-size: cover;
+border-radius: 10px;
+opacity: 1;
+}
+
+/* Your existing CSS styles */
+
+.scrollable-table-container {
+    overflow-x: auto;
+    width: 100%;
+}
+.pathimg
+{
+    height: 5px;
+}
+
+.del-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logoDelete
+{
+    /* height: 00px; */
+}
+.delBtn
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+    width: 400px;
+    justify-content: space-between;
+}
+.cancel
+{
+    top: 668px;
+left: 736px;
+width: 190px;
+height: 55px;
+color: white;
+background-color: gray;
+/* UI Properties */
+/* background: transparent url('img/Base.png') 0% 0% no-repeat padding-box; */
+border-radius: 10px;
+opacity: 1;
+
+}
+.confirm
+{
+    top: 668px;
+left: 977px;
+width: 190px;
+height: 55px;
+color: white;
+background-color: #D80000;
+/* background: transparent url('img/Base.png') 0% 0% no-repeat padding-box; */
+border-radius: 10px;
+opacity: 1;
+}
+
+@media (min-width: 500) and (max-width: 770px) {
+    .customer-list
+    {
+        width: 600px;
+    }
+}
+
+
+@media (min-width: 300) and (max-width: 500px) {
+    .customer-list
+    {
+        width: 100px;
+    }
+}

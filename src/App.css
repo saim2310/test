@@ -1,0 +1,28 @@
+body
+{
+  background-color: #F3F3F3;
+}
+.cont
+{
+  display: flex;
+  height: 100vh;
+}
+
+.listing
+{
+  margin-top: 150px;
+  margin-left: auto;
+  width: 950px;
+}
+.side
+{
+  height: 100%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1199px) {
+  /* Your styles for medium screens here */
+  .side
+  {
+    display: none;
+  }
+}

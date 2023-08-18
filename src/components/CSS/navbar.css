@@ -1,0 +1,26 @@
+.navbar {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    z-index: -1;
+    /* left: 353px; */
+  height: 150px;
+  box-shadow: 0px 3px 15px #6B6B6B1A;
+  opacity: 1;
+  }
+  .navtxt h2
+  {
+    margin-left: 500px;
+    font-weight: bolder;
+  /* color: antiquewhite; */
+  }
+
+  @media (min-width: 500) and (max-width: 770px) {
+    .navbar
+    {
+      display: none;
+    }
+}
+  
