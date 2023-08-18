@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="navbar xyz col-12">
 
             <div className="navtxt">
-                {/* <h2>CUSTOMERS</h2> */}
+                <h2>CUSTOMERS</h2>
             </div>
         </div>
     );

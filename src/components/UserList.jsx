@@ -36,14 +36,12 @@ const UserList = () => {
             const apiUrl = 'https://reqres.in/api/users?page=1';
             const response = await fetch(apiUrl);
             const data = await response.json();
-            // dispatch(setUsers(data.data));
             return data.data;
         } catch (error) {
             console.log(error);
         }
     }
 
-    // fetchData()
 
     const [updateData, setUpdateData] = useState({
         first_name: "",
@@ -170,7 +168,6 @@ const UserList = () => {
                         <input className='inputs' onChange={(e) => handleNameAdd(e)} placeholder="name" type="text" />
                         <br />
                         <input className='inputs' onChange={(e) => handleEmailAdd(e)} placeholder="email" type="text" />
-                        {/* <a type='file' accept="image/*" onChange={handleImageUpload} >ADD Photo</a> */}
                         <input
                             type="file"
                             accept="image/*"
@@ -233,7 +230,6 @@ const UserList = () => {
                                                                 <input className='inputs' onChange={(e) => handleNameUpdate(e)} placeholder="name" type="text" />
                                                                 <br />
                                                                 <input className='inputs' onChange={(e) => handleEmailUpdate(e)} placeholder="email" type="text" />
-                                                                {/* <a href="">Upload Photo</a> */}
                                                                 <input
                                                                     type="file"
                                                                     accept="image/*"
